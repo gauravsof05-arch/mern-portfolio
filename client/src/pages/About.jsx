@@ -102,7 +102,7 @@ function About() {
           <a href="https://www.linkedin.com/in/gaurav-kumar-43ab9b417/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
             <FaLinkedin />
           </a>
-          <a href="mailto:youremail@example.com" className="hover:text-blue-400">
+          <a href="mailto:gaurav.sof.05@gmail.com" className="hover:text-blue-400">
             <FaEnvelope />
           </a>
         </div>
