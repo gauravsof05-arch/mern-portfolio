@@ -96,10 +96,10 @@ function About() {
           Find Me Online
         </h2>
         <div className="flex gap-6 text-2xl">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
+          <a href="https://github.com/gauravsof05-arch" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
+          <a href="https://www.linkedin.com/in/gaurav-kumar-43ab9b417/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
             <FaLinkedin />
           </a>
           <a href="mailto:youremail@example.com" className="hover:text-blue-400">
