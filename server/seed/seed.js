@@ -5,7 +5,7 @@ const Blog = require('../models/Blog');
 
 dotenv.config();
 
-const projects = const projects = [
+const projects = [
   {
     title: 'ShopEasy',
     slug: 'shopeasy',
@@ -16,6 +16,27 @@ const projects = const projects = [
     liveUrl: 'https://shopping-cart-i91n9http-gaurav-dev1.vercel.app/',
     featured: true,
     order: 1,
+  },
+];
+
+const blogs = [
+  {
+    title: 'Why I Switched to the MERN Stack',
+    slug: 'why-i-switched-to-mern',
+    summary: 'A look at my journey learning full-stack development and why MongoDB, Express, React, and Node.js became my go-to stack.',
+    content: '## Introduction\n\nWhen I started my development journey...\n\n## Why MongoDB\n\n...\n\n## Conclusion\n\n...',
+    coverImage: 'https://via.placeholder.com/800x400?text=MERN+Stack',
+    tags: ['MERN', 'Career', 'JavaScript'],
+    published: true,
+  },
+  {
+    title: 'Building Scalable REST APIs with Express',
+    slug: 'building-scalable-rest-apis',
+    summary: 'Best practices I follow when structuring Express APIs for production, including error handling, validation, and rate limiting.',
+    content: '## Introduction\n\nA well-structured API...\n\n## Folder Structure\n\n...\n\n## Conclusion\n\n...',
+    coverImage: 'https://via.placeholder.com/800x400?text=REST+APIs',
+    tags: ['Node.js', 'Express', 'Backend'],
+    published: true,
   },
 ];
 
