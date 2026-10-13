@@ -1,1 +1,46 @@
 @import "tailwindcss";
+
+@theme {
+  --color-gray-200: #e0e7ff;
+  --color-gray-300: #c7d2fe;
+  --color-gray-400: #a5b4fc;
+  --color-gray-500: #818cf8;
+  --color-blue-400: #22d3ee;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@layer base {
+  body {
+    color: #e0e7ff;
+  }
+
+  h1,
+  h2 {
+    width: fit-content;
+    background: linear-gradient(90deg, #60a5fa, #c084fc, #f472b6, #fbbf24, #60a5fa);
+    background-size: 300% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientMove 8s ease infinite;
+  }
+
+  h1 {
+    filter: drop-shadow(0 0 14px rgba(168, 85, 247, 0.35));
+  }
+
+  h3 {
+    color: #f0abfc;
+  }
+}
